@@ -65,5 +65,6 @@ newdat <-
 
 newdat$Year <- as.numeric(newdat$Year)
 
+newdat<- newdat[-seq(nrow(newdat),nrow(newdat)-199999),]
 
 write.csv(newdat,"C:/R Studio_and_Git_and_Github/R shiny app for Philadelphia Crime Data Analysis/Philadelphia-Crime-Data-Analysis-using-R-Shiny-App/crime2.csv")
