@@ -1,0 +1,4 @@
+download "crime.csv" file from below kaggle website path
+
+https://www.kaggle.com/mchirico/philadelphiacrimedata
+
